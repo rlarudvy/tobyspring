@@ -25,6 +25,7 @@ Road­Logistics​(도로 물류) 클래스에 포함된 팩토리 메서드는 
 - 클라이언트는 모든 Transport 객체들이 deliver​(배달) 메서드를 가져야 한다는 사실을 알고 있지만, 이 메서드가 정확히 어떻게 작동하는지는 클라이언트에게 중요하지 않다.
 
 
+
 ## 전체 구조
 
 ![](https://refactoring.guru/images/patterns/diagrams/factory-method/structure.png)
