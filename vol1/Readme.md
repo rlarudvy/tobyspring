@@ -5,3 +5,5 @@
 > 예시
 > 
 ![](https://refactoring.guru/images/patterns/diagrams/factory-method/solution1.png)
+
+자식 클래스에서 팩토리 메서드를 오버라이딩하고 그 메서드에 의해 생성되는 제품들의 클래스를 변경
