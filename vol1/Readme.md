@@ -23,3 +23,7 @@ Road­Logistics​(도로 물류) 클래스에 포함된 팩토리 메서드는 
 - 클라이언트 코드는 다양한 자식 클래스들에서 실제로 반환되는 여러 제품 간의 차이에 대해 알지 못한다. 
 - 클라이언트 코드는 모든 제품을 추상 Transport​(운송체계)​로 간주 한다. 
 - 클라이언트는 모든 Transport 객체들이 deliver​(배달) 메서드를 가져야 한다는 사실을 알고 있지만, 이 메서드가 정확히 어떻게 작동하는지는 클라이언트에게 중요하지 않다.
+
+## 전체 구조
+
+![](https://refactoring.guru/images/patterns/diagrams/factory-method/structure.png)
