@@ -9,3 +9,8 @@
 자식 클래스에서 팩토리 메서드를 오버라이딩하고 그 메서드에 의해 생성되는 제품들의 클래스를 변경
 
 
+![](https://refactoring.guru/images/patterns/diagrams/factory-method/solution2-ko.png)
+
+Ship과 Truck 클래스 모두 Transport 인터페이스를 구현하고, deliver() 메서드를 선언하지만 각 클래스에 다르게 구현
+
+ex) 육로,해상
